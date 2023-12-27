@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/background">
+                <!-- create gradient you want to use with the angle you want to use -->
+                <shape android:shape="rectangle">
+                        <corners android:radius="6dp"/>
+                <solid android:color="#DDDDDD" />
+<!--                <shape android:useLevel="true" >-->
+
+<!--                </shape>-->
+                </shape>
+        </item>
+        <item
+            android:id="@+id/progress">
+                <scale android:scaleWidth="100%">
+                        <shape android:shape="rectangle">
+                                <corners android:radius="6dp"/>
+                                <gradient
+                                    android:type="linear"
+                                    android:startColor="#7E01FB"
+                                    android:centerColor="#BC02FF"
+                                    android:endColor="#F106D9"
+                                    />
+                        </shape>
+                </scale>
+<!--                <shape >-->
+<!--                        <solid android:color="#06080E" />-->
+
+<!--                </shape>-->
+        </item>
+</layer-list>

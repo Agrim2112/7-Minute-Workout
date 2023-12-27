@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+    <!-- create gradient you want to use with the angle you want to use -->
+    <shape android:shape="oval" android:useLevel="true" >
+        <gradient
+            android:type="linear"
+            android:startColor="#FFF10E6F"
+            android:centerColor="#FFFE766C"
+            android:endColor="#FFFEB86C"
+           />
+    </shape>
+    </item>
+    <item
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp">
+        <shape android:shape="oval" >
+            <solid android:color="#06080E" />
+
+        </shape>
+    </item>
+</layer-list>
